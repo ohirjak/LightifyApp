@@ -1,0 +1,43 @@
+LIGHTIFY® Home: Cloud REST API Usage Terms
+
+This End User License Agreement ("EULA") is a legal agreement between you (as either individual or a single entity, "You") and OSRAM GmbH, Marcel-Breuer-Str. 6, 80807 Munich, Germany ("OSRAM") that governs the use of the LIGHTIFY® Home Cloud REST API and its related documentation ("API"), which comprises a detailed documentation of the application interface functionalities. A related sample implementation can be downloaded separately. 
+You should carefully read the EULA and click "accept" if you fully accept and agree to all of the provisions of this EULA. If you do not accept all of the terms of this EULA, you have no right to use the API. 
+By clicking on "accept", or using the API, you confirm that you have read the EULA and consent to be bound by all of its terms and conditions.
+
+Preamble
+OSRAM wants Your applications to work with our LIGHTIFY® API in a compatible way to create exciting user experiences within the IoT ecosystem. To further this goal, Your abidance by these Usage Terms is required. It also supports Your providing an important contribution to the developer community.
+
+I. License Grant and Use Policy
+Subject to the terms and conditions of this EULA, You are hereby granted the non-exclusive, non-transferrable, worldwide right to (i) use the API as basis for the development of LIGHTIFY® compatible applications ("Your App") and to (ii) distribute the API and Your App, provided that any distribution thereof is subject to attaching and applying this EULA to the distributed API. Other than those explicitly stipulated herein, You are not granted any rights to the API. 
+When developing Your App, please ensure that polling is used sparingly in order to minimize unnecessary network traffic, i. e. ensure that (i) Your App only polls in case of active use of Your App, (ii) polling is discontinued after maximum fifteen (15) minutes if the active use has been stopped and (iii) Your App does not poll more than once every three (3) seconds on average per gateway. To keep security at highest level is a top priority for us. Even though you might be an expert, you may not attempt to probe, scan, penetrate or test the vulnerability of the cloud, or to breach the security or authentication measures, whether by passive or intrusive techniques. 
+To protect the security of the LIGHTIFY® system, You are not allowed to use the API or Your App to probe, scan, penetrate or test the vulnerability of the LIGHTIFY® cloud or to otherwise breach the security or authentication measures, whether by passive or intrusive techniques. 
+You are not entitled to use the API to develop applications that are obscene, not compliant with laws and regulations, offensive or discriminatory, that infringe someone else’s rights, create a risk to a person’s safety or health, compromises national security or interferes with an investigation by law enforcement, or control equipment used in hazardous environments, involving aircraft, life support machinery or similar. You are only allowed to develop Your App for use in residential and consumer products of a non-high-risk nature.
+You agree to be liable to OSRAM for any breach of the terms of this EULA by You or Your affiliates and shall bear all costs, risks, and liabilities incurred as a result of such breach.
+
+II. Intellectual Property
+The API is the property of OSRAM and/or its licensors and protected by copyright and trademark laws and other intellectual property rights. You shall maintain in the API all notices and legends (including copyright and trademark notices) included. Other than explicitly stated herein, nothing contained in the above shall be construed as granting, by implication or otherwise, any license or right to use any patent, trademark (in particular the trademarks "OSRAM" and "LIGHTIFY®") or any other intellectual property right of OSRAM, nor does it grant any license or rights to use any copyrights or other rights related to the materials described above except as explicitly stated. 
+Should you notify or provide to OSRAM any ideas of improvements or other feedback to the API or the LIGHTIFY® system in general ("Feedback"), OSRAM and its affiliates are entitled to use and have used such Feedback for any purpose without limitation, as OSRAM sees fit, including, for the avoidance of doubt, also the rights of distribution and sublicensing.
+
+III. Consideration
+The API is provided free of charge.
+
+IV. Warranty
+OSRAM warrants that the API will be up to date, complete and free from material errors. 
+The warranty period is ninety (90) days and begins upon download ("Warranty Period"). 
+In the event that a copy of the API fails to meet the above warranties ("Defect"), OSRAM will use commercially reasonable efforts to correct it. 
+Warranty claims are also excluded (a) in case of insignificant Defects or (b) if You or any other third party modifies the API and the Defect is based on such modification.
+
+V. Liability
+OSRAM’s liability under this EULA shall not be limited as far as the damage has been caused by intent and/or gross negligence. It shall also not be limited for all claims arising from the Product Liability Act (Produkthaftungsgesetz). 
+Should OSRAM negligently breach an essential or cardinal obligation, OSRAM’s liability is limited to the amount of the typically arising and foreseeable damages. 
+In all other cases than those stipulated above or except as otherwise explicitly stipulated in this EULA, claims for damages against OSRAM shall be excluded. This exclusion also includes the personal liability of employees, legal representatives and vicarious agents.
+
+VI. Export Control
+The export of the API and/or Your App may, e.g. due to its nature or intended use or final destination, be subject to authorisation. You are obliged to strictly conform to the export regulations for information, software and documentation, in particular with those of the EU as well as the individual EU member states and the USA. When providing the API, OSRAM will label it if requiring authorisation in accordance with German and EU export control lists and the U.S. Commerce Control List.
+
+VII. Term
+Both OSRAM and You may terminate this EULA, in addition to any other remedies it may have, if the other party is in default of a material obligation under this EULA and fails to cure such default within thirty (30) days following its receipt of written notice of the default. Within thirty (30) days following termination of this EULA, whether terminated by You or OSRAM, You must cease using the API and destroy all copies thereof in your possession. Notwithstanding the foregoing, each party may terminate this EULA for material cause.
+
+VIII. Dispute Resolution and Applicable Law
+The place of jurisdiction shall be Munich if You are a merchant in terms of the German Commercial Code (Handelsgesetzbuch).
+This EULA shall be governed by German law. The application of the German Uniform Code on the Formation of Contracts for the International Sale of Movable Goods of 17 July 1973 and the United Nations Convention on Contracts for the International Sales of Goods (CISG) of 11 April 1980 is excluded.

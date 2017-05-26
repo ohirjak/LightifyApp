@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/*******************************************************************************
+ * Copyright 2015, OSRAM GmbH
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *******************************************************************************
+ *
+ * OSRAM License Details : Refer OSRAM License agreement included in Package
+ *
+ *******************************************************************************/
+ -->
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.ProgressIndicator?>
+
+<AnchorPane prefWidth="438.0" style="-fx-background-color: white;"
+	xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="com.osram.action.LoginController">
+	<children>
+		<Label layoutX="63.0" layoutY="18.0" prefHeight="33.0"
+			prefWidth="97.0" text="User Name" AnchorPane.bottomAnchor="191.0"
+			AnchorPane.rightAnchor="279.0" AnchorPane.topAnchor="18.0" />
+		<Label layoutX="63.0" layoutY="60.0" prefHeight="33.0"
+			prefWidth="97.0" text="Password" AnchorPane.bottomAnchor="149.0"
+			AnchorPane.leftAnchor="63.0" AnchorPane.rightAnchor="279.0"
+			AnchorPane.topAnchor="60.0" />
+		<Button fx:id="loginBtn" layoutX="98.0" layoutY="214.0"
+			mnemonicParsing="false" onAction="#login" prefHeight="27.0"
+			prefWidth="97.0" style="-fx-cursor: hand;" text="Login"
+			AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="98.0"
+			AnchorPane.rightAnchor="244.0" AnchorPane.topAnchor="214.0" />
+		<TextField id="t_name" fx:id="userNameId" layoutX="165.0"
+			layoutY="18.0" prefHeight="33.0" prefWidth="219.0"
+			AnchorPane.bottomAnchor="191.0" AnchorPane.rightAnchor="55.0"
+			AnchorPane.topAnchor="18.0" />
+		<PasswordField fx:id="pwdId" layoutX="165.0" layoutY="60.0"
+			prefHeight="33.0" prefWidth="219.0" AnchorPane.bottomAnchor="149.0"
+			AnchorPane.leftAnchor="165.0" AnchorPane.rightAnchor="55.0"
+			AnchorPane.topAnchor="60.0" />
+		<ProgressIndicator fx:id="progressIndicatorId"
+			layoutX="190.0" layoutY="92.0" prefHeight="53.0" prefWidth="60.0"
+			visible="false" AnchorPane.bottomAnchor="99.0" AnchorPane.leftAnchor="190.0"
+			AnchorPane.rightAnchor="189.0" style="-fx-progress-color: orange;"/>
+		<ComboBox fx:id="environmentId" layoutX="165.0" layoutY="139.0"
+			prefHeight="33.0" prefWidth="219.0" AnchorPane.bottomAnchor="70.0"
+			AnchorPane.leftAnchor="165.0" AnchorPane.rightAnchor="55.0"
+			AnchorPane.topAnchor="139.0" editable="true">
+			<items>
+				<FXCollections fx:factory="observableArrayList">
+					<String fx:value="PRODUCTION-EU" />
+					<String fx:value="PRODUCTION-US" />
+					<!--
+					<String fx:value="UAT" />
+					<String fx:value="DEVELOPMENT" />
+					-->
+				</FXCollections>
+			</items>
+			<value>
+				<String fx:value="PRODUCTION-EU" />
+			</value>
+		</ComboBox>
+		<Label layoutX="63.0" layoutY="139.0" prefHeight="33.0"
+			prefWidth="97.0" text="Environment" AnchorPane.bottomAnchor="70.0"
+			AnchorPane.leftAnchor="63.0" AnchorPane.rightAnchor="279.0"
+			AnchorPane.topAnchor="139.0" />
+		<CheckBox fx:id="rememberMeId" layoutX="165.0" layoutY="178.0"
+			mnemonicParsing="false" prefHeight="33.0" prefWidth="125.0" text="Remember Me" />
+		<Button fx:id="resetBtn" layoutX="231.0" layoutY="214.0"
+			mnemonicParsing="false" onAction="#reset" prefHeight="27.0"
+			prefWidth="97.0" style="-fx-cursor: hand;" text="Reset"
+			AnchorPane.bottomAnchor="3.0" AnchorPane.topAnchor="214.0" />
+		<Label layoutX="63.0" layoutY="101.0" prefHeight="33.0"
+			prefWidth="97.0" text="Device Name" />
+		<TextField fx:id="deviceName" layoutX="165.0" layoutY="101.0"
+			prefHeight="33.0" prefWidth="219.0" />
+	</children>
+</AnchorPane>
