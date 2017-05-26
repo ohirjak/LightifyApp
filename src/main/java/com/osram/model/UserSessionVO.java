@@ -39,6 +39,8 @@ public class UserSessionVO {
 	 */
 	private String securityToken;
 
+	private String expires;
+
 	/**
 	 * Default Constructor
 	 */
@@ -52,9 +54,10 @@ public class UserSessionVO {
 	 * @param userId
 	 * @param securityToken
 	 */
-	public UserSessionVO(final String userId, final String securityToken) {
+	public UserSessionVO(final String userId, final String securityToken, String expires) {
 		this.userId = userId;
 		this.securityToken = securityToken;
+		this.expires = expires;
 	}
 
 	/**
@@ -97,5 +100,15 @@ public class UserSessionVO {
 	 */
 	public final void setStatus(final String status) {
 		this.status = status;
+	}
+
+
+	public String getExpires() {
+		return expires;
+	}
+
+
+	public void setExpires(String expires) {
+		this.expires = expires;
 	}
 }
