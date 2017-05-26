@@ -21,4 +21,5 @@
 PRODUCTION-EU : "https://eu.lightify-api.org/lightify/services"
 PRODUCTION-US : "https://us.lightify-api.org/lightify/services"
 UAT : "https://192.168.0.100:8443"
-DEVELOPMENT : "http://localhost:8080/lightify/services"
+DEVELOPMENT_ORIG : "http://localhost:8080/lightify/services"
+DEVELOPMENT : "https://192.168.15.160:8443"
